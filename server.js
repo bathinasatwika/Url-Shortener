@@ -45,10 +45,12 @@ app.get('/:short', async(req,res)=>{
     check.clicks++;
     check.save();
     
+    
     res.redirect(check.longurl);
       })
 
 app.listen(3000,()=>{
     console.log("Server started")
 })
+
 

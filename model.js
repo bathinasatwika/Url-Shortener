@@ -16,7 +16,8 @@ const urlSchema= new mongoose.Schema({
         type:Number,
         required:true,
     }
-    
+
 });
+
 
 module.exports= mongoose.model('User', urlSchema)
